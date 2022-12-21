@@ -9,8 +9,8 @@ body {
 }
 
 .slidershow {
-  width: 700px;
-  height: 400px;
+  width: 360px;
+  height: 380px;
   overflow: hidden;
 }
 .middle {
@@ -183,15 +183,17 @@ nav {
   font-size: 25px;
   color: #ffffff;
   padding-bottom: 2%;
+  overflow-y: scroll;
 }
 
 .info_accueil {
   display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
+  height: 450px;
+  flex-direction: column;
+  overflow: scroll;
 }
 
 .red_button {
