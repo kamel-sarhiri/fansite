@@ -483,5 +483,7 @@ textarea.contact-form-text {
 }
 
 .photoJoueur {
-  filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
 }
